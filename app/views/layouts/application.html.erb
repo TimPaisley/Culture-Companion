@@ -6,6 +6,7 @@
 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	<%= csrf_meta_tags %>
 	<%= render 'layouts/shim' %>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<%= render 'layouts/header' %>
@@ -15,7 +16,7 @@
 		<% end %>
 		<%= yield %>
 		<%= render 'layouts/footer' %>
-		<%= debug(params) if Rails.env.development? %>
+		<!--<%= debug(params) if Rails.env.development? %>-->
 	</div>
 </body>
 </html>

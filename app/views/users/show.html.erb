@@ -1,11 +1,38 @@
 <% provide(:title, @user.name) %>
-<div class="row">
-  <aside class="col-md-4">
-    <section class="user_info">
-      <h1>
-        <%= gravatar_for @user %>
-        <%= @user.name %>
-      </h1>
-    </section>
-  </aside>
+<div class="row user-exhibits">
+	<div class="col-md-3">
+		<div class="user-details">
+			<%= gravatar_for @user %>
+			<h1><%= @user.name %></h1>
+			<h2>500 Points</h2>
+		</div>
+	</div>
+
+	<div class="col-md-9">
+		<div class="exhibit-block">
+			<h2>Exhibit 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium dolor...</p>
+		</div>
+
+		<div class="exhibit-block">
+			<h2>Exhibit 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium dolor...</p>
+		</div>
+
+		<div class="exhibit-block">
+			<h2>Exhibit 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium dolor...</p>
+		</div>
+
+		<div class="exhibit-block">
+			<h2>Exhibit 4</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium dolor...</p>
+		</div>
+
+		<div class="exhibit-block">
+			<h2>Exhibit 5</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium dolor...</p>
+		</div>
+	</div>
 </div>
+

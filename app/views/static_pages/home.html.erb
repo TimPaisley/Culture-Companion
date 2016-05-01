@@ -1,11 +1,27 @@
 <div class="center jumbotron">
-  <h1>Te Papa: Culture Companion</h1>
+	<h1>The Official Te Papa Companion</h1>
+	<h2>Your all-in-one tour guide as you dive into culture, history and art!</h2>
 
-  <h2>
-    Your all-in-one online Te Papa tour guide.
-  </h2>
-
-  <%= link_to "Create an Account", signup_path, class: "btn btn-lg btn-primary" %>
+	<%= link_to "Create an Account", signup_path, class: "btn btn-lg btn-success" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
+<!-- News Text -->
+<div class="row">
+	<div class="col-md-4">
+		<h3>News Article 1</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium dolor, in feugiat sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi faucibus accumsan dictum. Suspendisse potenti. Vivamus vel est eget lorem lobortis imperdiet at id lacus. Donec ullamcorper faucibus nibh ut posuere. Morbi ac eleifend metus. Integer et laoreet ligula. Ut fermentum cursus quam, eu convallis magna tincidunt vitae. Nunc posuere, augue ac maximus pharetra, sem erat iaculis dolor, sed pretium felis mauris auctor odio. Curabitur vitae semper nulla, at scelerisque dui.</p>
+		<%= link_to "Read More »", '#', class: "btn btn-default" %>
+	</div>
+
+	<div class="col-md-4">
+		<h3>News Article 2</h3>
+		<p>Cras vulputate placerat varius. Etiam eleifend magna sit amet tellus sagittis imperdiet. Aenean eget congue eros. Integer non arcu vitae libero varius convallis sed nec nibh. Nulla eget ullamcorper ligula. Maecenas ac lobortis sapien. Praesent felis est, interdum nec nunc sit amet, ultrices condimentum enim. Proin tincidunt, lectus id dignissim iaculis, mauris nunc rhoncus quam, id auctor risus nunc et ex. Fusce in fermentum turpis.</p>
+		<%= link_to "Read More »", '#', class: "btn btn-default" %>
+	</div>
+
+	<div class="col-md-4">
+		<h3>News Article 3</h3>
+		<p>Praesent vehicula sit amet turpis vitae semper. Sed commodo mollis neque sed sollicitudin. Suspendisse convallis a dui vel faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce efficitur cursus ornare. Integer porttitor nunc quis tempus ornare. Fusce pulvinar nulla nec nisi tempor, consectetur congue mi sagittis. Sed eu lectus et massa hendrerit pulvinar et eu dui. Mauris a venenatis enim, sit amet commodo lectus. Suspendisse vitae nisl mattis mauris tempor sagittis sed vitae nisl.</p>
+		<%= link_to "Read More »", '#', class: "btn btn-default" %>
+	</div>
+</div>
