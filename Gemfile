@@ -7,6 +7,8 @@ gem 'rails', '4.2.6'
 gem 'sass-rails', '~> 5.0.2'
 # Use Bootstrap-SASS for web design styles
 gem 'bootstrap-sass', '3.2.0.0'
+# use bCrypt to secure passwords
+gem 'bcrypt', '~> 3.1.8'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '2.5.3'
 # Use CoffeeScript for .coffee assets and views
